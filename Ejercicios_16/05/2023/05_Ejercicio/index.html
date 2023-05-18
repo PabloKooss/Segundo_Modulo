@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <meta charset="iso-8859-1">
         <title>Etiquetas</title>
-        <style>
-            p{color: black;}
-            li{color: rgb(206, 43, 111);}
-            #lista_negra{color: rgb(87, 87, 87);}
-        </style>
+        <link rel="stylesheet" href="mi_estilo.css">
     </head>
     <h1>Etiquetas HTML</h1>
     <p>Existen otros tipos de etiqutas para crear una página web en <b>HTML5</b> que nos permiten encuadrar otros
@@ -27,7 +24,7 @@
         <li><h4>&lt;address></h4>
             <p>Define la información de contacto del autor/propietario de un documento u artículo.<br>
                 Ejemplo:<br>
-                Escrito por <address>Pablo Moreno</address>
+                <address>Escrito por <a href="#address" id="adres">Pablo Moreno</a></address>
             </p>
         </li>
         <li><h4>&lt;article></h4>
@@ -52,24 +49,148 @@
             </p>
             <a href="example/aside.html">Ejemplo aside con css</a>
         
-        </li><br> <li><h4>&lt;audio></h4>
+        </li><br> 
+        <li><h4>&lt;audio></h4>
             <p>Agrega controles de audio, como reproducción, pausa y volumen. El &lt;source> permite especificar
                 archivos de audio alternativos entro los que puede elegirl el navegador.<br>
                 Ejemplo:</p>
             <audio src="audio/teclado-mecanografia.mp3" controls></audio>
         </li><br>
-        
-        </li><br> <li><h4>&lt;button></h4>
-            <p>Permite anclar una dirección URL<br>
+        <li><h4>&lt;button></h4>
+            <p>Define un botón enel que es puede hacer clic.<br>
+                Dentro de un &lt;button> puedes poner texto (y etiquteas como &lt;i>,&lt;b>,&lt;strong>,&lt;img>, etc ). !Eso no es
+                    posible con un botón creado con el &lt;input><br>
+                <b>Sugerencia:</b>Especifique siembre el type de un &lt;button>, para indicar a los navegadores qué tipo de botón
+                    es.<br>
+                <b>Consejo: Puede diseñar botones facilmente con CSS</b><br>
                 Ejemplo:</p>
-            <a href="#soyLink">Soy un link</a>
+                <button id="btvd">Botón 1</button><button id="btaz">Botón 2</button>
         </li><br>
+        <li><h4>&lt;form></h4>
+            <p>Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
+                verificación, botones de opción, botonees de envío, etc.<br>
+            <ul>
+                <li id="lista_negra">&lt;input type="text"></li>
+                <p>muestra un campo de entrada de texto de una sola linea</p>
+                <input type="text">
+                <li id="lista_negra">&lt;input type="radio"></li>
+                <p>Muestra un botón de radio(para selecionar una de muchas opciones)</p>
+                <input type="radio"><input type="radio"><input type="radio">
+                <li id="lista_negra">&lt;input type="checkbox"></li>
+                <p>Muestra una casilla de verificación(para selecionar cero o más opciónes)</p>
+                <input type="checkbox"><input type="checkbox">
+                <li id="lista_negra">&lt;input type="submit"></li>
+                <p>Muestra un botón de envio(para enviar el formulario)</p>
+                <input type="submit">
+                <li id="lista_negra">&lt;input type="button"></li>
+                <p>Muestra un botón en e que sepuede hacer clic</p>
+                <input type="button">
+            </ul>
+            <a href="example/form.html" target="_blank">Ejemplo form</a>
+        </li><br>       
+        <li><h4>&lt;footer></h4>
+            <p>Define un pie de página para un documento o sección<br>
+                Normalmente contien:</p>
 
+            <ul>
+                <li id="lista_negra">Información de autoría</li>
+                <li id="lista_negra">Información de registro</li>
+                <li id="lista_negra">Información del contacto</li>
+                <li id="lista_negra">Mapa del sitio</li>
+                <li id="lista_negra">Volver a los enlaces superiores</li>
+                <li id="lista_negra">Documentos relacionados</li>
+            </ul><br>
+            
+            <a href="example/footer.html">Soy un link</a>
+        </li><br>
+        <li><h4>&lt;header></h4>
+            <p>Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.<br>
+                Normalmente contiene:</p>
+            <ul>
+                <li id="lista_negra">Uno a más elementos de encabezado (&lt;h1> - &lt;h6>)</li>
+            <li id="lista_negra">Logotipo o icono</li>
+            <li id="lista_negra">información de autoría</li>
+            </ul>
+            <p><b>NOTA:Puede tener varios &lt;header> en un documento HTML. Sin embargo, no sepuede colocar
+                dentro de un &lt;footer>, &lt;address> u otro &lt;header></b>
+            Ejemplo:
+            <h1>Encabezado de la página principal aquí</h1>
+            <h4>Publicado el 17/08/2022</h4> </p> </p>
+        </li><br>
+        <li><h4>&lt;hgroup></h4>
+            <p>Generalmente se usa para agrupar un conjunto de uno o más elementos &lt;h1> - &lt;h6>, para agrupar, por
+                ejemplo, un titulo de sección y un subtitulo adjunto.<br>
+                Ejemplo:</p>
+            <a href="example/hgroup.html">Ejemplo hgroup</a>
+        </li><br>
+        <li><h4>&lt;&lt;h1> - &lt;h6></h4>
+            <p>Se utilizan para definir encabezados HTML.<br>
+                Ejemplo:</p>
+            <h1 id="haz">Hola mundo en H1</h1>
+            <h6 id="hnj">Hola mundo en H6</h6>
+        </li><br>
+        <li><h4>&lt;img></h4>
+            <p>Se utiliza para incrustar una imagen en una página HTML.<br>
+            Técnicamente, las imágenes no se insertan en una página web; las imágenes están vinculadas a páginas
+            web. La etiqueta &lt;ima> crea un espacio de espera para la imagen de referencia.<br>
+            Tiene atributos obligatorios:</p>
+            <ul>
+                <li id="lista_negra">src: especifica la ruta a la imagen</li>
+                <li id="lista_negra">alt: especifica un texto alternativo para la imagen, si la imagen por algún motivo no se puede
+                    mostrar</li>
+            </ul>
+            <a href="example/img.html" target="_blank">Ejemplo img</a>
+        </li><br>
+        <li><h4>&lt;map></h4>
+            <p>Se utiliza para definir un mapa de imagen, es una imagen con áreas en las que se puede hacer clic.<br>
+                El atributo de nombre requerido del &lt;map> esta asocioado con el atributo usemap de <img> y crea una
+                    relación entre la imagen y el mapa.</p>
+            <a href="example/map.html" target="_blank">Ejamplo map</a>
+        </li><br>
+        <li><h4>&lt;nav></h4>
+            <p>Define un conjunto de enlaces de navegación.<br>
+                Tenga en cuenta que NO todos los enlaces de un documento deben estar dentro de un &lt;nav>. Este
+                elemento está destinado solo para el bloque principal de enlaces de navegación.<br>
+                Ejemplo:</p>
+                <nav><a href="https://www.google.com" target="_blank">Google</a>
+                    | <a href="https://www.youtube.com" target="_blank">Youtube</a>
+                    | <a href="https://www.github.com" target="_blank">GitHub</a>
+                    | <a href="https://www.edc.com" target="_blank">EDC</a></nav>
+        </li><br>
+        <li><h4>&lt;p></h4>
+            <p>Define un párrafo.<br>
+                Los navegadores agregan automáticamente una línea en blanco antes y después de cada &lt;p></p>
+            <a href="example/p.html" target="_blank">Ejemplo p</a>
+        </li><br>
+        <li><h4>&lt;script></h4>
+            <p>Se utiliza para incrustar un script del lado del cliente <b>JavaScript</b><br>
+                Contiene declaraciones de secuencias de comandos o apunta a un archivo de secuencia de comandos
+                externos a través del atributo <b>src</b><br>
+                Los usus comunes de <b>JavaScript</b> son manipulación de imágenes, la validación de formularios y los
+                cambis dinámicos de contenido.<br>
+                <em><b>Nota:</b> cuando un navegador lee una hoja de estilo, formateará el documento HTML de acuerdo con la
+                información de la hoja de estilo. Si se han definido algunas propiedades para el mismo selector
+                (elemento) en diferentes hojas de estilo, se utilizará el valor de la última hoja de estilo leída (consulte el
+                ejemplo a continuación).</em>
+            </p>
+            <a href="example/script.html" target="_blank">Ejemplo Script</a>
+        </li><br>
+        <li><h4>&lt;style></h4>
+            <p>Se utiliza para definir la información de estilo CSS de un documento<br>
+                Dentro de &lt;style>, especifica cómo deben mostrarse los elementos HTML en un navegador.<br>
+                Ejemplo:</p>
+            <!--<a href="example/formularios/" target="_blank">Soy un link</a>-->
+        </li><br>
+        <li><h4>&lt;section></h4>
+            <p>Define una sección en un documento<br>
+                Ejemplo:</p>
+            <a href="example/section.html" target="_blank">Ejemplo section</a>
+        </li><br>
         <!--
-        </li><br> <li><h4>&lt;a></h4>
+        <li><h4>&lt;a></h4>
             <p>Permite anclar una dirección URL<br>
                 Ejemplo:</p>
-            <a href="#soyLink">Soy un link</a>
+            <a href="#soyLink" target="_blank">Soy un link</a>
         </li><br>
     -->
     </ol>

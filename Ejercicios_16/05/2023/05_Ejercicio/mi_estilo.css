@@ -1,0 +1,33 @@
+p{
+    color: black;}
+
+li{
+    color: rgb(206, 43, 111);}
+
+#lista_negra{
+    color: rgb(87, 87, 87);}
+
+#adres{
+    color:rgb(206, 43, 111)}
+
+#btvd{
+    background: rgb(3, 177, 3);
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    font-size: large;}
+
+#btaz{
+    background: rgb(3, 157, 177);
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    font-size: large;}
+
+#haz{
+    background: #03a3ff;
+    color: black;
+}
+#hnj{
+    color: orangered;
+}
