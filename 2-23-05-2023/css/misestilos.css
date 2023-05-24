@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+    text-align: justify;
+}
+main{
+    padding: 2em;
+}
+img{
+    width: 33%;
+    height: auto;
+}
