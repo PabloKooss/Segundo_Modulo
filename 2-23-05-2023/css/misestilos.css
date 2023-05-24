@@ -1,8 +1,21 @@
-*{
+header{
     text-align: center;
-    text-align: justify;
+    background-color: #e8f2a1;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+nav{
+    background-color: #f7d1d5;
+    padding: .5em;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    display: inline;
+    width: 19%;
 }
 main{
+    text-align: justify;
     padding: 2em;
 }
 img{
