@@ -1,4 +1,13 @@
 header{
+    border: #5f9ea0 solid 1px;
+    border-radius: 10px;
+    padding: .5em;
+}
+img{
+    width: 33%;
+    height: auto;
+}
+hgroup{
     text-align: center;
     background-color: #e8f2a1;
     border: black solid 1px;
@@ -10,15 +19,35 @@ nav{
     padding: .5em;
     border: black solid 1px;
     border-radius: 10px;
-    margin-bottom: 1em;
-    display: inline;
+    margin-bottom: .5em;
+}
+nav a{
+    text-align: center;
+    display: inline-block;
     width: 19%;
 }
 main{
     text-align: justify;
-    padding: 2em;
+    margin: .5em;
+    padding: .5em;
+    border:#e6caa6 dotted 3px;
 }
-img{
-    width: 33%;
-    height: auto;
+article{
+    padding: .5em;
+    border:#a359e8 dotted 3px;
+    display: inline-block;
+    width: 70%;
+}
+aside{
+    padding: .5em;
+    border:#a52a2a dotted 3px;
+    display: inline-block;
+    width: 25%;
+}
+main h1{
+    text-align: center;
+    padding: 1em;
+    background-color: #b0a1f2;
+    border: black solid 1px;
+    border-radius: 10px;
 }
