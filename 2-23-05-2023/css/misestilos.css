@@ -124,6 +124,10 @@ main aside div{
     border: black solid 1px;
     border-radius: 10px;
 }
+main aside div img{
+    width: 80%;
+    height: auto;
+}
 footer{
     border: #7c796c dotted 3px;
     border-radius: 10px;
