@@ -50,14 +50,80 @@ aside{
     display: inline table;
     width: 25%;
 }
-main h1{
+main #tituloh1{
     text-align: center;
     padding: 1em;
     background-color: #b0a1f2;
     border: black solid 1px;
     border-radius: 10px;
 }
-
+main #sec1{
+    border: black solid 1px;
+    border-radius: 10px;
+    background-color: #a8f2a1;
+}
+main #sec1 figure{
+    width: 40%;
+    margin: 0px;
+    margin-left: 1em;
+    display: inline-block;
+}
+main #sec1 figure img{
+    float: left;
+    width: 100%;
+    height: auto;
+    display: inline;
+    margin: 1em;
+}
+main #sec1 #parrafo1{
+    display: inline-block;
+    width: 50%;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: 1em;
+}
+main section h1{
+    background-color: #f2ada1;
+    text-align: center;
+    padding: 1em;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+main section #div1{
+    background-color: #dbb4dc;
+    padding: 1em;
+    border: black solid 1px;
+    border-radius: 10px;
+    float: left;
+    width: 45%;
+    height: 30em;
+}
+main section #div2{
+    background-color: #dbb4dc;
+    padding: 1em;
+    border: black solid 1px;
+    border-radius: 10px;
+    float: right;
+    width: 45%;
+    height: 30em;
+}
+main section div p{
+    padding: .5em;
+}
+main section div img{
+    float: left;
+    width: 80%;
+    height: auto;
+    display: inline;
+    margin: 1em;
+}
+main aside div{
+    background-color: #b4c7dc;
+    padding: .5em;
+    margin-top: 2em;
+    border: black solid 1px;
+    border-radius: 10px;
+}
 footer{
     border: #7c796c dotted 3px;
     border-radius: 10px;
