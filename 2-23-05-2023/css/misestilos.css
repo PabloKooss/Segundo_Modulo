@@ -35,13 +35,13 @@ main{
 article{
     padding: .5em;
     border:#a359e8 dotted 3px;
-    display: inline-block;
+    display: inline table;
     width: 70%;
 }
 aside{
     padding: .5em;
     border:#a52a2a dotted 3px;
-    display: inline-block;
+    display: inline table;
     width: 25%;
 }
 main h1{
