@@ -23,20 +23,31 @@ a{
     font-size: large;
     padding: 1em;
 }
-#cuerpo{
+main{
     margin: 7px;
     padding: 4px;
     background-color: #c7ddcc;
+    height: 20.5em;
 }
-section{
+article{
     background-color: #12a4d9;
     /*float: left;*/
     width: 68%;
+    float: left;
+    height: 20em;
+}
+article h2,p{
+    padding: 1em;
 }
 aside{
     background-color: #d9138a;
     width: 31%;
+    float: right;
+    height: 20em;
 }
-#borde{
-    float: left;
+aside h2,p{
+    padding: 1em;
+}
+footer{
+    background-color: yellow;
 }
