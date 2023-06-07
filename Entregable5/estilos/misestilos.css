@@ -1,0 +1,73 @@
+*{
+    /*border: black solid 1px;*/
+    padding: 0;
+    margin: 0;
+    border: 0;
+    scrollbar-color: rgb(129, 6, 6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header img{
+    padding-left: 10%;
+    padding-top: .3em;
+    padding-bottom: .5em;
+    width: 204px;
+    height: 37px;
+}
+nav{
+    text-align: right;
+    border-top: rgb(206, 205, 205) solid 1px;
+    padding-right: 10%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(7, 80, 25);
+    padding-left: 1em;
+}
+#fondo-cdmx{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 10%;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 75%;
+}
+#fondo-cdmx div{
+    color: white;
+    /*border: white solid 1px;*/
+}
+#imagen{
+    display: inline;
+    margin-top: 2em;
+}
+
+#letras1{
+    display: inline-block;
+    font-size: 2em;
+}
+#letras2{
+    float: left;
+    font-size: 2em;
+    padding-left: 17%;
+}
+#letras3{
+    display: inline-block;
+    font-size: 3.5em;
+}
+#letras4{
+    display: inline-block;
+    font-size: 2em;
+    padding-left: 31%;
+}
+#texto-info{
+    text-align: center;
+}
+main #texto-info h1{
+    padding-top: 1em;
+    color: rgb(175, 150, 5);
+}
+main #texto-info p{
+    color: gray;
+}
