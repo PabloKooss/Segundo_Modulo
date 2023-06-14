@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  padding: 0;
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: #222;
 }
 
 * {
   font-family: Helvetica,sans-serif;
-  color: #555;
+  color: white;
 }
-
 #mmeennuu {
   display: none;
 }
@@ -28,7 +28,8 @@ body {
 }
 
 .menu {
-  display: block;
+  /*display: inline-flex;*/
+  float: right;
   margin: 30px auto;
   width: 100px;
   height: 100px;
@@ -102,7 +103,31 @@ video {
   z-index: -2;
 }
 header h1{
-  color: white;
   padding: 1em;
   display: inline-block;
+}
+main{
+  padding-left: 1em;
+  padding-top: 5em;
+}
+#l1{
+  margin: 0;
+  font-size: 4em;
+}
+#l2{
+  margin: 0;
+  font-size: 3.1em;
+}
+main button{
+  background-color: white;
+  color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+footer img{
+  padding-top: 20em;
+  width: 2em;
+  height: 2em;
 }
